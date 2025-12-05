@@ -1,0 +1,13 @@
+# Ignorar el archivo .env para proteger datos sensibles
+.env
+
+# Ignorar la carpeta vendor, ya que contiene dependencias instaladas por Composer
+/vendor/
+
+# Ignorar archivos de configuración de Composer
+composer.lock
+
+# Ignorar configuraciones específicas del sistema operativo y del editor
+.DS_Store            # macOS
+.idea/               # PhpStorm o WebStorm
+*.log                # Archivos de log
